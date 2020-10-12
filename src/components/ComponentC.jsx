@@ -4,7 +4,8 @@ import ComponentE from './ComponentE'
 function ComponentC() {
   return (
     <div>
-      <p>ComponentC</p>
+      <hr />
+      ComponentC:
       <ComponentE />
     </div>
   )

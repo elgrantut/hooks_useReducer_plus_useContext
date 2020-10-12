@@ -1,4 +1,4 @@
-import React, { useReducer, useContext } from 'react'
+import React, { useReducer } from 'react'
 import ComponentA from './ComponentA'
 import ComponentB from './ComponentB'
 import ComponentC from './ComponentC'
@@ -25,7 +25,7 @@ export default function App() {
 
   return (
     <CountContext.Provider
-      value={{ countState: count, countDispacht: dispatch }}
+      value={{ countState: count, countDispatch: dispatch }}
     >
       <div className="container m-5">
         <h1 className="text-primary display-4">React Hooks</h1>
